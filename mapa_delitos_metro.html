@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_00e7abbbe67fc4bb28301fe4c308fc56 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_00e7abbbe67fc4bb28301fe4c308fc56" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_00e7abbbe67fc4bb28301fe4c308fc56 = L.map(
+                "map_00e7abbbe67fc4bb28301fe4c308fc56",
+                {
+                    center: [19.4326, -99.1332],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f53e9d79b2e4460a6e70d7128de79a81 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_00e7abbbe67fc4bb28301fe4c308fc56);
+        
+    
+            var marker_cluster_486e756cb36be41017e8f51090828030 = L.markerClusterGroup(
+                {}
+            );
+            map_00e7abbbe67fc4bb28301fe4c308fc56.addLayer(marker_cluster_486e756cb36be41017e8f51090828030);
+        
+    
+            var circle_marker_a64b0350bda4ab730e406c46a9cdccc8 = L.circleMarker(
+                [19.4371, -99.1467],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.18, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_486e756cb36be41017e8f51090828030);
+        
+    
+        var popup_e6a2321b2998c4654db4ec79c9d093fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd88b2fec560924c2f47399fee5a96d4 = $(`<div id="html_fd88b2fec560924c2f47399fee5a96d4" style="width: 100.0%; height: 100.0%;">Hidalgo: 818 delitos</div>`)[0];
+            popup_e6a2321b2998c4654db4ec79c9d093fb.setContent(html_fd88b2fec560924c2f47399fee5a96d4);
+        
+
+        circle_marker_a64b0350bda4ab730e406c46a9cdccc8.bindPopup(popup_e6a2321b2998c4654db4ec79c9d093fb)
+        ;
+
+        
+    
+    
+            var circle_marker_24ded77deedb8b094596e41b8c29e5a6 = L.circleMarker(
+                [19.416, -99.0717],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.51, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_486e756cb36be41017e8f51090828030);
+        
+    
+        var popup_ecfa94cdc9386e6028f642575046e00c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_876de62e6810ce80b6d64b3fa3003ed3 = $(`<div id="html_876de62e6810ce80b6d64b3fa3003ed3" style="width: 100.0%; height: 100.0%;">Pantitlán: 651 delitos</div>`)[0];
+            popup_ecfa94cdc9386e6028f642575046e00c.setContent(html_876de62e6810ce80b6d64b3fa3003ed3);
+        
+
+        circle_marker_24ded77deedb8b094596e41b8c29e5a6.bindPopup(popup_ecfa94cdc9386e6028f642575046e00c)
+        ;
+
+        
+    
+    
+            var circle_marker_b751394e61abca9153bde000a1169745 = L.circleMarker(
+                [19.427, -99.1332],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.350000000000001, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_486e756cb36be41017e8f51090828030);
+        
+    
+        var popup_623c7e994ef811dc0512a8213a3ce31b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b736043ef54122c17244a7a45f3f5e0a = $(`<div id="html_b736043ef54122c17244a7a45f3f5e0a" style="width: 100.0%; height: 100.0%;">Pino Suárez: 635 delitos</div>`)[0];
+            popup_623c7e994ef811dc0512a8213a3ce31b.setContent(html_b736043ef54122c17244a7a45f3f5e0a);
+        
+
+        circle_marker_b751394e61abca9153bde000a1169745.bindPopup(popup_623c7e994ef811dc0512a8213a3ce31b)
+        ;
+
+        
+    
+    
+            var circle_marker_7b145741a09f006b8496a8dd77fef61e = L.circleMarker(
+                [19.4004, -99.1548],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.76, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_486e756cb36be41017e8f51090828030);
+        
+    
+        var popup_dbba11cf9248a70c43ed79b8185d3c58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f64dbf82ae9712ee04573261bf81e2ae = $(`<div id="html_f64dbf82ae9712ee04573261bf81e2ae" style="width: 100.0%; height: 100.0%;">Centro Médico: 376 delitos</div>`)[0];
+            popup_dbba11cf9248a70c43ed79b8185d3c58.setContent(html_f64dbf82ae9712ee04573261bf81e2ae);
+        
+
+        circle_marker_7b145741a09f006b8496a8dd77fef61e.bindPopup(popup_dbba11cf9248a70c43ed79b8185d3c58)
+        ;
+
+        
+    
+    
+            var circle_marker_3efe49487064ff52b841c5b059b49a9f = L.circleMarker(
+                [19.4872, -99.1197],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.530000000000001, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_486e756cb36be41017e8f51090828030);
+        
+    
+        var popup_821d8df58662006a953e054fc8ab43a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fbeb65dd4f8d2df64fa1f4944f96006a = $(`<div id="html_fbeb65dd4f8d2df64fa1f4944f96006a" style="width: 100.0%; height: 100.0%;">Indios Verdes: 353 delitos</div>`)[0];
+            popup_821d8df58662006a953e054fc8ab43a4.setContent(html_fbeb65dd4f8d2df64fa1f4944f96006a);
+        
+
+        circle_marker_3efe49487064ff52b841c5b059b49a9f.bindPopup(popup_821d8df58662006a953e054fc8ab43a4)
+        ;
+
+        
+    
+    
+            var circle_marker_b1e49f658afc44c29ec0afa07f6e2014 = L.circleMarker(
+                [19.3433, -99.1494],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.45, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_486e756cb36be41017e8f51090828030);
+        
+    
+        var popup_446c3b66468341c0a2fe657be472d1ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_215ce7b09fb158ff9d1fd39213b3b852 = $(`<div id="html_215ce7b09fb158ff9d1fd39213b3b852" style="width: 100.0%; height: 100.0%;">Tasqueña: 345 delitos</div>`)[0];
+            popup_446c3b66468341c0a2fe657be472d1ab.setContent(html_215ce7b09fb158ff9d1fd39213b3b852);
+        
+
+        circle_marker_b1e49f658afc44c29ec0afa07f6e2014.bindPopup(popup_446c3b66468341c0a2fe657be472d1ab)
+        ;
+
+        
+    
+    
+            var circle_marker_32a4eba98b69ce67b58cbbd4bc895cfd = L.circleMarker(
+                [19.3985, -99.2002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.24, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_486e756cb36be41017e8f51090828030);
+        
+    
+        var popup_37aecaf0e5b27b14c78fa3d390306a8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_078dab5f7b9dfa4f032ef3b04bc6be13 = $(`<div id="html_078dab5f7b9dfa4f032ef3b04bc6be13" style="width: 100.0%; height: 100.0%;">Observatorio: 324 delitos</div>`)[0];
+            popup_37aecaf0e5b27b14c78fa3d390306a8d.setContent(html_078dab5f7b9dfa4f032ef3b04bc6be13);
+        
+
+        circle_marker_32a4eba98b69ce67b58cbbd4bc895cfd.bindPopup(popup_37aecaf0e5b27b14c78fa3d390306a8d)
+        ;
+
+        
+    
+    
+            var circle_marker_d5a9f99d7d7dfad0258b05c66e5805be = L.circleMarker(
+                [19.4597, -99.1899],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_486e756cb36be41017e8f51090828030);
+        
+    
+        var popup_d6d96d977b1d26ea80fcd9f90451c2e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_818085189f29b9f01bdbb04fd9dc7b65 = $(`<div id="html_818085189f29b9f01bdbb04fd9dc7b65" style="width: 100.0%; height: 100.0%;">Tacuba: 314 delitos</div>`)[0];
+            popup_d6d96d977b1d26ea80fcd9f90451c2e8.setContent(html_818085189f29b9f01bdbb04fd9dc7b65);
+        
+
+        circle_marker_d5a9f99d7d7dfad0258b05c66e5805be.bindPopup(popup_d6d96d977b1d26ea80fcd9f90451c2e8)
+        ;
+
+        
+    
+    
+            var circle_marker_93b5215819a7858ec03e5fc91c1ac3bf = L.circleMarker(
+                [19.3615, -99.0688],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.129999999999999, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_486e756cb36be41017e8f51090828030);
+        
+    
+        var popup_7586d6671aad0bd7301bb1e9ae060adc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1eeeffe8e2add003ba29acef361e7847 = $(`<div id="html_1eeeffe8e2add003ba29acef361e7847" style="width: 100.0%; height: 100.0%;">Constitución de 1917: 313 delitos</div>`)[0];
+            popup_7586d6671aad0bd7301bb1e9ae060adc.setContent(html_1eeeffe8e2add003ba29acef361e7847);
+        
+
+        circle_marker_93b5215819a7858ec03e5fc91c1ac3bf.bindPopup(popup_7586d6671aad0bd7301bb1e9ae060adc)
+        ;
+
+        
+    
+    
+            var circle_marker_54b66271327cec2678af67c57137368c = L.circleMarker(
+                [19.425, -99.1528],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.120000000000001, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_486e756cb36be41017e8f51090828030);
+        
+    
+        var popup_56be23cf06cc480d112cb0cbdf7adace = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd38b89ad6a75adafd5cf83955d434ff = $(`<div id="html_dd38b89ad6a75adafd5cf83955d434ff" style="width: 100.0%; height: 100.0%;">Balderas: 312 delitos</div>`)[0];
+            popup_56be23cf06cc480d112cb0cbdf7adace.setContent(html_dd38b89ad6a75adafd5cf83955d434ff);
+        
+
+        circle_marker_54b66271327cec2678af67c57137368c.bindPopup(popup_56be23cf06cc480d112cb0cbdf7adace)
+        ;
+
+        
+    
+    
+            var circle_marker_088bf893f08c20672972ae829781fcb1 = L.circleMarker(
+                [19.4326, -99.1332],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.720000000000001, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_486e756cb36be41017e8f51090828030);
+        
+    
+        var popup_0b72a58af031ee4ce6460c7a1333a27b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f67af243edf3da290bd0c5a04a14477 = $(`<div id="html_2f67af243edf3da290bd0c5a04a14477" style="width: 100.0%; height: 100.0%;">Zócalo: 272 delitos</div>`)[0];
+            popup_0b72a58af031ee4ce6460c7a1333a27b.setContent(html_2f67af243edf3da290bd0c5a04a14477);
+        
+
+        circle_marker_088bf893f08c20672972ae829781fcb1.bindPopup(popup_0b72a58af031ee4ce6460c7a1333a27b)
+        ;
+
+        
+    
+    
+            var circle_marker_e21a8f5a21b259ddf73815958bb7ee4f = L.circleMarker(
+                [19.3137, -99.1761],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.59, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_486e756cb36be41017e8f51090828030);
+        
+    
+        var popup_02db10848096d6371ba6e54cc151f45e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f8f4f1e4fc229dacb16b4db4a1bd12a = $(`<div id="html_7f8f4f1e4fc229dacb16b4db4a1bd12a" style="width: 100.0%; height: 100.0%;">Universidad: 59 delitos</div>`)[0];
+            popup_02db10848096d6371ba6e54cc151f45e.setContent(html_7f8f4f1e4fc229dacb16b4db4a1bd12a);
+        
+
+        circle_marker_e21a8f5a21b259ddf73815958bb7ee4f.bindPopup(popup_02db10848096d6371ba6e54cc151f45e)
+        ;
+
+        
+    
+</script>
+</html>
