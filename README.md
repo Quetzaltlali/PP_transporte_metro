@@ -1,4 +1,4 @@
-# [Proyecto Prototípico de Seguridad en el metro de la  licenciatura en Ciencias de Datos de la UNRC]
+# [Proyecto Prototípico de Seguridad en el metro / Licenciatura en Ciencias de Datos de la UNRC]
 
 *Análisis predictivo de seguridad y afluencia en el Metro CDMX (ejemplo)*  
 
